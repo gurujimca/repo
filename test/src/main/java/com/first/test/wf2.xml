@@ -9,7 +9,7 @@
 <UserValue title="completeDependencyTaskRef" value="4" dataRef="#id456"></UserValue></UserData></WorkflowTemplate>
 <WorkflowTemplate id="id3" name="Invoke Dispatcher" originalId="BbYt3DB54jBKRA" signoffQuorum="0" parentTaskTemplateRef="#id2" objectType="EPMTaskTemplate" iconKey="task" dependencyTaskTemplateRefs="#id2" showInProcessStage="true" location="5e,2ba,19,9d,2f2,9f" actions="#id5">
 <ApplicationRef application="Teamcenter" label="UEe1rurwYDuNJC" version="UEe1rurwYDuNJC"></ApplicationRef>
-<UserData id="id4" type="reference1">
+<UserData id="id4" type="reference">
 <UserValue title="parentDependencyTaskRef" value="202" dataRef="#id2"></UserValue></UserData></WorkflowTemplate>
 <WorkflowAction id="id5" actionHandlerRefs="#id6 #id8" parentRef="" actionType="2">
 <ApplicationRef application="Teamcenter" label="UEf1rurwYDuNJC" version="UEf1rurwYDuNJC"></ApplicationRef></WorkflowAction>
