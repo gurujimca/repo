@@ -37,7 +37,7 @@
 <TaskDescription id="id11">
 <Item value="Condition task to determine whether any dispatcher requests were created as part of the current Workflow. If Yes, WF is routed to &quot;Validate Dispatcher&quot; task and if no requests were created, WF is directly routed to the review tasks"></Item></TaskDescription></WorkflowTemplate>
 <WorkflowAction id="id13" parentRef="" actionType="4" ruleRefs="#id14">
-<ApplicationRef application="Teamcenter" label="UIX1rurwYDuNJC" version="UIX1rurwYDuNJC"></ApplicationRef></WorkflowAction>
+<ApplicationRef application="Teamcenter" label="UIX1rurwYDuNJC" version="UIX1rurwYDuNJC" test="guruji"></ApplicationRef></WorkflowAction>
 <WorkflowBusinessRule id="id14" ruleQuorum="1" ruleHandlerRefs="#id15">
 <ApplicationRef application="Teamcenter" label="UIY1rurwYDuNJC" version="UIY1rurwYDuNJC"></ApplicationRef></WorkflowBusinessRule>
 <WorkflowBusinessRuleHandler id="id15" name="EPM-check-condition">
