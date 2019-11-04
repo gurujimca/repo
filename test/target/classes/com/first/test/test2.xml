@@ -1,0 +1,35 @@
+<preference name="AWS_FullTextSearch_FacetFilters_ObjectData" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of indexed object properties.</preference_description>
+      <context name="Teamcenter">
+        <value>WorkspaceObject.object_type</value>
+        <value>WorkspaceObject.date_released</value>
+        <value>WorkspaceObject.ip_classification</value>
+        <value>WorkspaceObject.gov_classification</value>
+        <value>WorkspaceObject.fnd0InProcess</value>
+        <value>WorkspaceObject.release_status_list</value>
+        <value>WorkspaceObject.project_list</value>
+        <value>POM_application_object.last_mod_date</value>
+        <value>POM_application_object.owning_group</value>
+        <value>POM_application_object.last_mod_user</value>
+        <value>POM_application_object.owning_user</value>
+        <value>Item.item_id</value>
+        <value>WorkspaceObject.object_name</value>
+        <value>ItemRevision.awn0nxProperties</value>
+        <value>ItemRevision.awn0nxRelease</value>
+        <value>ChangeItemRevision.CMClosure</value>
+        <value>ChangeItemRevision.CMDisposition</value>
+        <value>ChangeItemRevision.CMMaturity</value>
+        <value>ChangeItemRevision.analyst_user_id</value>
+        <value>ChangeItemRevision.change_specialist1_user_id</value>
+        <value>ChangeItemRevision.requestor_user_id</value>
+        <value>ChangeNoticeRevision.CMImplPriority</value>
+        <value>ChangeNoticeRevision.CMIsCustApprovalRequired</value>
+        <value>ChangeNoticeRevision.CMStatusOfCustApproval</value>
+        <value>Mat1Substance.mat1cas_number</value>
+        <value>Mat1Substance.mat1IsInActive</value>
+        <value>Mat1Substance.mat1is_wildcard</value>
+      </context>
+    </preference>
+     <preference name="AWC_Rev_Rule_Selected" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false" lsd="11-Mar-2018 21:09:16">
+      <preference_description>Specifies the revision rule selected by the user in Active Workspace. Make sure this preference is deleted if the first value of &quot;AWC_Rev_Rule_List&quot; preference has to be selected in AWC Client. Add a valid value to this preference if a specific revision rule in the list has to be selected. If the &quot;AWC_Rev_Rule_List&quot; preference is modified to remove the value matching the AWC_Rev_Rule_Selected value, delete this preference.&quot;</preference_description>
+    </preference>
